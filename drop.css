@@ -1,0 +1,95 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background:#4a1626;
+}
+img{
+    margin-top: 0.2rem;
+    width: 3.7rem;
+    height: 3.7rem;
+    border-radius: 50%;
+}
+.img{
+    position: fixed;
+}
+#title{
+    color:#E1C699;
+    padding: 0.6rem 0;
+    font-family:'Montserrat', sans-serif;
+    background: #350d19;
+
+}
+.select-menu{
+    width: 380px;
+    margin: 60px auto;
+}
+.select-menu .select-btn{
+    display: flex;
+    height: 55px;
+    background: #E1C699;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 5 5 5px rgba(0,0,0,0.1);
+}
+.select-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+    color:#4B1223;
+}
+.select-menu.active .select-btn i{
+    transform: rotate(-180deg);
+}
+.select-menu .options{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #543236;
+    display: none;
+}
+.select-menu.active .options{
+    display: block;
+}
+.options .option{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #543236;
+}
+.options .option:hover{
+    background: #644448;
+}
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+.option .option-text{
+    font-size: 18px;
+    color: #E1C699;
+}
+.option a{
+    color:#E1C699;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .buttons a {
+    margin: 2px 10px;
+  }
